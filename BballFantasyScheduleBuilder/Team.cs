@@ -26,7 +26,9 @@ namespace BballFantasyScheduleBuilder
         {
             name = teamname;
             abbrev = webAbbrev;
-            url = string.Format(@"https://www.basketball-reference.com/teams/{0}/2021_games.html", abbrev);
+            /*Be sure to change the year in the url for the season that you are in
+             ex: 21-22 season should have the year 2022*/
+            url = string.Format(@"https://www.basketball-reference.com/teams/{0}/2022_games.html", abbrev);
             populateGames(wklist);
         }
 
@@ -42,7 +44,7 @@ namespace BballFantasyScheduleBuilder
             var gameNodes = tableNode.SelectNodes("//tr/td[@data-stat='date_game']"); //selects attribute with data-stat="date_game" the nodes with the date have <td class="left " data-stat="date_game" csk="2019-10-23" >
             List<string> errorNodes = new List<string>();
             /*Make sure to initialize games with the week youre starting on. Ex: for 2020-2021 season, fantasy started on week 2, so games[2] = 0*/
-            games[2] = 0;//initialize it so you dont try to pop first element in weeklist 
+            games[1] = 0;//initialize it so you dont try to pop first element in weeklist 
             int wkindex = 0;
             foreach (HtmlNode node in gameNodes)
             {

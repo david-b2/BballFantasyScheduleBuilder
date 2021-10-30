@@ -52,41 +52,30 @@ namespace BballFantasyScheduleBuilder
             List<Week> weeklist = new List<Week>();
             //add new week to list of weeks 
             //                           weeknum              startdate                     enddate
-           /* weeklist.Add(new Week(01, new DateTime(2019, 10, 22), new DateTime(2019, 10, 27)));*/
+            /* weeklist.Add(new Week(01, new DateTime(2019, 10, 22), new DateTime(2019, 10, 27)));*/
 
-            weeklist.Add(new Week(02, new DateTime(2020, 12, 28), new DateTime(2021, 01, 03)));
-            weeklist.Add(new Week(03, new DateTime(2021, 01, 04), new DateTime(2021, 01, 10)));
-            weeklist.Add(new Week(04, new DateTime(2021, 01, 11), new DateTime(2021, 01, 17)));
-            weeklist.Add(new Week(05, new DateTime(2021, 01, 18), new DateTime(2021, 01, 24)));
-            weeklist.Add(new Week(06, new DateTime(2021, 01, 25), new DateTime(2021, 01, 31)));
-            weeklist.Add(new Week(07, new DateTime(2021, 02, 01), new DateTime(2021, 02, 07)));
-            weeklist.Add(new Week(08, new DateTime(2021, 02, 08), new DateTime(2021, 02, 14)));
-            weeklist.Add(new Week(09, new DateTime(2021, 02, 15), new DateTime(2021, 02, 21)));
-            weeklist.Add(new Week(10, new DateTime(2021, 02, 22), new DateTime(2021, 02, 28)));
-            weeklist.Add(new Week(11, new DateTime(2021, 03, 01), new DateTime(2021, 03, 14)));
-            weeklist.Add(new Week(12, new DateTime(2021, 03, 15), new DateTime(2021, 03, 21)));
-            weeklist.Add(new Week(13, new DateTime(2021, 03, 22), new DateTime(2021, 03, 28)));
-            weeklist.Add(new Week(14, new DateTime(2021, 03, 29), new DateTime(2021, 04, 04)));
-            weeklist.Add(new Week(15, new DateTime(2021, 04, 05), new DateTime(2021, 04, 11)));
-            weeklist.Add(new Week(16, new DateTime(2021, 04, 12), new DateTime(2021, 04, 18)));
-            weeklist.Add(new Week(17, new DateTime(2021, 04, 19), new DateTime(2021, 04, 25)));
-            weeklist.Add(new Week(18, new DateTime(2021, 04, 26), new DateTime(2021, 05, 02)));
-
-            /*weeklist.Add(new Week(11, new DateTime(2021, 03, 01), new DateTime(2021, 03, 07)));
-            weeklist.Add(new Week(12, new DateTime(2021, 03, 08), new DateTime(2021, 03, 14)));
-            weeklist.Add(new Week(13, new DateTime(2021, 03, 15), new DateTime(2021, 03, 21)));
-            weeklist.Add(new Week(14, new DateTime(2021, 03, 22), new DateTime(2021, 03, 28)));
-            weeklist.Add(new Week(15, new DateTime(2021, 03, 29), new DateTime(2021, 04, 04)));
-            weeklist.Add(new Week(16, new DateTime(2020, 04, 05), new DateTime(2020, 04, 11)));
-            weeklist.Add(new Week(17, new DateTime(2020, 04, 12), new DateTime(2020, 04, 18)));
-            weeklist.Add(new Week(18, new DateTime(2020, 04, 19), new DateTime(2020, 04, 25)));*/
-
-
-            /*weeklist.Add(new Week(19, new DateTime(2020, 02, 24), new DateTime(2020, 03, 01)));
-            weeklist.Add(new Week(20, new DateTime(2020, 03, 02), new DateTime(2020, 03, 08)));
-            weeklist.Add(new Week(21, new DateTime(2020, 03, 09), new DateTime(2020, 03, 15)));
-            weeklist.Add(new Week(22, new DateTime(2020, 03, 16), new DateTime(2020, 03, 22)));
-            weeklist.Add(new Week(23, new DateTime(2020, 03, 23), new DateTime(2020, 03, 29)));*/
+            weeklist.Add(new Week(01, new DateTime(2021, 10, 18), new DateTime(2021, 10, 24)));
+            weeklist.Add(new Week(02, new DateTime(2021, 10, 25), new DateTime(2021, 10, 31)));
+            weeklist.Add(new Week(03, new DateTime(2021, 11, 01), new DateTime(2021, 11, 07)));
+            weeklist.Add(new Week(04, new DateTime(2021, 11, 08), new DateTime(2021, 11, 14)));
+            weeklist.Add(new Week(05, new DateTime(2021, 11, 15), new DateTime(2021, 11, 21)));
+            weeklist.Add(new Week(06, new DateTime(2021, 11, 22), new DateTime(2021, 11, 28)));
+            weeklist.Add(new Week(07, new DateTime(2021, 11, 29), new DateTime(2021, 12, 05)));
+            weeklist.Add(new Week(08, new DateTime(2021, 12, 06), new DateTime(2021, 12, 12)));
+            weeklist.Add(new Week(09, new DateTime(2021, 12, 13), new DateTime(2021, 12, 19)));
+            weeklist.Add(new Week(10, new DateTime(2021, 12, 20), new DateTime(2021, 12, 26)));
+            weeklist.Add(new Week(11, new DateTime(2021, 12, 27), new DateTime(2022, 01, 02)));
+            weeklist.Add(new Week(12, new DateTime(2022, 01, 03), new DateTime(2022, 01, 09)));
+            weeklist.Add(new Week(13, new DateTime(2022, 01, 10), new DateTime(2022, 01, 16)));
+            weeklist.Add(new Week(14, new DateTime(2022, 01, 17), new DateTime(2022, 01, 23)));
+            weeklist.Add(new Week(15, new DateTime(2022, 01, 24), new DateTime(2022, 01, 30)));
+            weeklist.Add(new Week(16, new DateTime(2022, 01, 31), new DateTime(2022, 02, 06)));
+            weeklist.Add(new Week(17, new DateTime(2022, 02, 07), new DateTime(2022, 02, 13)));
+            weeklist.Add(new Week(18, new DateTime(2022, 02, 14), new DateTime(2022, 02, 27)));
+            weeklist.Add(new Week(19, new DateTime(2022, 02, 28), new DateTime(2022, 03, 06)));
+            weeklist.Add(new Week(20, new DateTime(2022, 03, 07), new DateTime(2022, 03, 13)));
+            weeklist.Add(new Week(21, new DateTime(2022, 03, 14), new DateTime(2022, 03, 20)));
+            weeklist.Add(new Week(22, new DateTime(2022, 03, 21), new DateTime(2022, 03, 27)));
 
             return weeklist;
         }
@@ -138,8 +127,8 @@ namespace BballFantasyScheduleBuilder
             {
                 writer.WriteStartElement("Team");
                 
-                int strength = team.games[team.games.Count - 1] + team.games[team.games.Count - 2]; // sum of last two games in playoffs
-                writer.WriteAttributeString("playoff-strength", strength.ToString());
+                //int strength = team.games[team.games.Count - 1] + team.games[team.games.Count - 2]; // sum of last two games in playoffs
+                //writer.WriteAttributeString("playoff-strength", strength.ToString());
                 writer.WriteAttributeString("name", team.name);
                 foreach (KeyValuePair<int, int> entry in team.games)
                 {
